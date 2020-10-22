@@ -1,11 +1,24 @@
-# Input/output
-De "input" module wordt gebruikt om de computer een vraag te laten stellen aan de gebruiker.
-Het antwoord hiervan wordt dan opgeslagen in een variabel, lijst, etc.
-De "output" module wordt gebruikt via het commando "print()"
+# input-output
+De `input()` en output (`print()`) modules zorgen 
+voor communicatie tussen de computer en de gebruiker.
 
-CODE    naam = input("Wat is je naam? ")
-        print("Hallo "+naam)
 
-INPUT   Bram Van Rossenveld
+## input
+De `input()` module wordt als volgt gebruikt:
 
-OUTPUT  Hallo Bram Van Rossenveld
+```python
+input('Wat is je naam? ')
+```
+
+Als je dit script uitvoert krijg je dit te zien:
+```md
+Wat is je naam? 
+```
+
+>TIP: zorg dat er op het einde van je vraag een spatie staat.
+Dit zorgt ervoor dat er ruimte is tussen je vraag en je antwoord.
+
+Je kan ook je antwoorden opslaan in een variabel
+```python
+antwoord = input('Wat is je naam? ')
+```
