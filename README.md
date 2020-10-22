@@ -71,11 +71,11 @@ De code zit als volgt in elkaar:
 antwoord = input('Wat is je naam? ')
 print('Hallo ', antwoord)
 ```
-De gebruiker kan nu een antwoord ingeven waarop wordt geantwoord. (De input staat cursief)
+De gebruiker kan nu een antwoord ingeven waarop wordt geantwoord. (De input staat tussen [])
 ```Markdown
 INPUT
 
-Wat is je naam? * Robbe bruynweels *
+Wat is je naam? [Robbe bruynweels]
 ```
 ```Markdown
 OUTPUT
@@ -94,4 +94,4 @@ Maak gebruik van de volgende functies:
 - variabelen
 - int()
 
-** Veel succes! **
+Veel succes!
