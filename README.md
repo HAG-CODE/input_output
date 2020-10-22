@@ -5,11 +5,11 @@ De "output" module wordt gebruikt via het commando "print()"
 
 vb:
 CODE
-naam = input("Wat is je naam? ")
-print("Hallo "+naam)
+  naam = input("Wat is je naam? ")
+  print("Hallo "+naam)
 
 INPUT
-Bram Van Rossenveld
+  Bram Van Rossenveld
 
 OUTPUT
-Hallo Bram Van Rossenveld
+  Hallo Bram Van Rossenveld
