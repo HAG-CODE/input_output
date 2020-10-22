@@ -75,5 +75,5 @@ De gebruiker kan nu een antwoord ingeven waarop wordt geantwoord. (De input staa
 ```md
 INPUT
 
-Wat is je naam? *Robbe bruynweels*
+Wat is je naam? * Robbe bruynweels *
 ```
