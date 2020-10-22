@@ -51,17 +51,29 @@ Wanneer je meerdere dingen wilt printen op 1 regel, kan je gebruik maken van 2 m
 - Methode 1: een `+` tussen elk apart element
 ```python
 tekst =  'Hallo'
-print(text+' wereld')
+print(text + ' wereld')
 ```
 ```md
 Hallo wereld
 ```
 - Methode 2: een `,` tussen elk apart element
 ```python
-print(text,' world')
+print(text , ' world')
 ```
 ```md
 Hallo wereld
 ```
 
 ## input-output
+Om de computer te laten comunniseren met de gebruiker heb je zowel een `input()` als een `print()` functie nodig.
+De code zit als volgt in elkaar:
+```python
+antwoord = input('Wat is je naam? ')
+print('Hallo ', antwoord)
+```
+De gebruiker kan nu een antwoord ingeven waarop wordt geantwoord. (De input staat vetgedrukt)
+```md
+INPUT
+
+Wat is je naam? *Robbe bruynweels*
+```
