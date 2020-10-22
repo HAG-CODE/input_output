@@ -10,7 +10,7 @@ input('Wat is je naam? ')
 ```
 
 Als je dit script uitvoert krijg je dit te zien:
-```md
+```Markdown
 Wat is je naam? 
 ```
 
@@ -34,7 +34,7 @@ print('Hallo')
 ```
 
 Als je dit script uitvoert krijg je dit te zien:
-```md
+```Markdown
 Hallo
 ```
 
@@ -43,7 +43,7 @@ Je kan ook variabelen printen:
 tekst = 'Hallo'
 print(tekst)
 ```
-```md
+```Markdown
 Hallo
 ```
 Wanneer je meerdere dingen wilt printen op 1 regel, kan je gebruik maken van 2 methodes
@@ -53,14 +53,14 @@ Wanneer je meerdere dingen wilt printen op 1 regel, kan je gebruik maken van 2 m
 tekst =  'Hallo'
 print(text + ' wereld')
 ```
-```md
+```Markdown
 Hallo wereld
 ```
 - Methode 2: een `,` tussen elk apart element
 ```python
 print(text , ' world')
 ```
-```md
+```Markdown
 Hallo wereld
 ```
 
@@ -71,9 +71,27 @@ De code zit als volgt in elkaar:
 antwoord = input('Wat is je naam? ')
 print('Hallo ', antwoord)
 ```
-De gebruiker kan nu een antwoord ingeven waarop wordt geantwoord. (De input staat vetgedrukt)
-```md
+De gebruiker kan nu een antwoord ingeven waarop wordt geantwoord. (De input staat cursief)
+```Markdown
 INPUT
 
 Wat is je naam? * Robbe bruynweels *
 ```
+```Markdown
+OUTPUT
+
+Hallo Robbe Bruynweels
+```
+
+## opdracht
+Schrijf een script dat kan berekenen hoe oud je bent a.d.h.v. de volgende formule: `2020-geboortejaar`. Laat de computer dit weergeven in de volgende zin: `NAAM is LEEFTIJD oud.`
+
+
+Maak gebruik van de volgende functies:
+
+- input()
+- print()
+- variabelen
+- int()
+
+** Veel succes! **
