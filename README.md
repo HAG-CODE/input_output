@@ -1,4 +1,4 @@
-# input-output
+# input/output
 De `input()` en output (`print()`) functies zorgen 
 voor communicatie tussen de computer en de gebruiker.
 
