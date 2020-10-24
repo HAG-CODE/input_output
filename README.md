@@ -65,7 +65,7 @@ Hallo wereld
 ```
 
 ## input-output
-Om de computer te laten communiceren met de gebruiker heb je zowel een `input()` als een `print()` functie nodig.
+Om de computer te laten communiceren met de gebruiker heb je zowel een `input()` als een `print()` functie nodig. Je vraagt dus eerst iets op, dan doe je er er iets mee, en dan zet je met print het resultaat op het scherm.
 De code zit als volgt in elkaar:
 ```python
 antwoord = input("Wat is je naam? ")
